@@ -1,0 +1,96 @@
+* {
+  font-family: cascadia code;
+  font-size: large;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dde1e7;
+}
+body ::-webkit-scrollbar {
+  display: none;
+}
+
+.surveyDisplay {
+  background: #dde1e7;
+  margin: 5% 10% 2% 10%;
+  width: 75%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.4509803922), 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.surveyDisplay .buttonContainer {
+  margin-left: 88.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.surveyDisplay .buttonContainer button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 22px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: green;
+  color: white;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.surveyDisplay .buttonContainer button .iconLogout {
+  font-size: 25px;
+  margin: 0.2rem;
+}
+.surveyDisplay ul {
+  list-style: none;
+  margin: 1rem;
+}
+.surveyDisplay ul li {
+  display: flex;
+  padding: 1rem;
+  background: #dde1e7;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+}
+.surveyDisplay ul li .contents {
+  display: flex;
+  flex-direction: column;
+}
+.surveyDisplay ul li .contents .name {
+  font-size: 19.5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.surveyDisplay ul li .contents .gender {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.surveyDisplay ul li .contents .nationality {
+  font-size: 18px;
+}
+
+.surveyDisplay ul li .contents .message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.surveyDisplay ul li button {
+  padding: 0.3rem;
+  color: white;
+  background: red;
+  box-shadow: 2px 2px 5px #babecc, -5px -5px 10px rgba(255, 255, 255, 0.4509803922);
+  border: none;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.surveyDisplay ul li button .infoIcon {
+  padding: 0.1rem;
+  font-size: 25px;
+}/*# sourceMappingURL=home.css.map */
